@@ -18,21 +18,6 @@ const Lights: React.FC<LightsProps> = (
   return (
         <>
             <ambientLight/>
-            <spotLight
-                castShadow={true}
-                position={[offsetX, offsetY, distance+offsetZ]}
-            />
-            {[
-              [-distance+offsetX, offsetY, distance+offsetZ],
-              [offsetX, -distance+offsetY, distance+offsetZ],
-              [offsetX, distance+offsetY, offsetZ]
-            ].map((position, index) => (
-                <directionalLight
-                    key={index}
-                    intensity={2}
-                    position={position as [number, number, number]}
-                />
-            ))}
         </>
   )
 }
