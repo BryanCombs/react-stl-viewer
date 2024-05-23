@@ -40,7 +40,7 @@ const Lights: React.FC<LightsProps> = (
             {[
               [-distance+offsetX, offsetY, -(distance+offsetZ)],
               [offsetX, -distance+offsetY, -(distance+offsetZ)],
-              [offsetX, distance+offsetY, -offsetZ]
+              [offsetX, distance+offsetY, offsetZ]
             ].map((position, index) => (
                 <directionalLight
                     key={index}
