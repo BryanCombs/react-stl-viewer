@@ -29,7 +29,7 @@ const Lights: React.FC<LightsProps> = (
             ].map((position, index) => (
                 <directionalLight
                     key={index}
-                    intensity={2}
+                    intensity={4}
                     position={position as [number, number, number]}
                 />
             ))}
@@ -44,7 +44,7 @@ const Lights: React.FC<LightsProps> = (
             ].map((position, index) => (
                 <directionalLight
                     key={index}
-                    intensity={2}
+                    intensity={4}
                     position={position as [number, number, number]}
                 />
             ))}
