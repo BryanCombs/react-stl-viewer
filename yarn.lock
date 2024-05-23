@@ -11192,10 +11192,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@*, "rollup@^1.20.0 || ^2.0.0 || ^3.0.0", rollup@^1.20.0||^2.0.0, rollup@^1.20.0||^2.0.0||^3.0.0||^4.0.0, rollup@^2.14.0, rollup@^2.42.0, rollup@^2.68.0, rollup@^3.0, rollup@^3.29.4, rollup@>=1.26.3:
-  version "3.29.4"
-  resolved "https://registry.npmjs.org/rollup/-/rollup-3.29.4.tgz"
-  integrity sha512-oWzmBZwvYrU0iJHtDmhsm662rC15FRXmcjCk1xD771dFDx5jJ02ufAQQTn0etB2emNk4J9EZg/yWKpsn9BWGRw==
+rollup@*, "rollup@^1.20.0 || ^2.0.0 || ^3.0.0", rollup@^1.20.0||^2.0.0, rollup@^1.20.0||^2.0.0||^3.0.0||^4.0.0, rollup@^2.14.0, rollup@^2.42.0, rollup@^2.68.0, rollup@^3.0, rollup@^3.2.5, rollup@>=1.26.3:
+  version "3.2.5"
+  resolved "https://registry.npmjs.org/rollup/-/rollup-3.2.5.tgz"
+  integrity sha512-/Ha7HhVVofduy+RKWOQJrxe4Qb3xyZo+chcpYiD8SoQa4AG7llhupUtyfKSSrdBM2mWJjhM8wZwmbY23NmlIYw==
   optionalDependencies:
     fsevents "~2.3.2"
 
